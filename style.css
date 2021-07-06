@@ -1,0 +1,58 @@
+body {
+    margin 0;
+    font-family: 'Bona Nova', serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+section {
+    margin-top: 50px;
+}
+
+.top_part {
+    display: flex;
+}
+
+.top_first {
+    width: 55%;
+    margin-left: 8%;
+    margin-top: 30px;
+    padding: 0 10px;
+
+}
+
+.top_last {
+    width: 45%;
+
+}
+
+h1 {
+    font-size: 55px;
+    color: rgba(0, 0, 0, 0.659);
+    letter-spacing: 3px;
+    font-weight: 900;
+    padding-bottom: -2%;
+}
+
+.top_p {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.576);
+    padding-bottom: 6%;
+    ;
+}
+
+.difrent_font {
+    color: rgb(255, 165, 0);
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 23px 50px;
+    background-image: linear-gradient(hsla(39, 97%, 49%, 0.645), rgb(245, 47, 12));
+    border-radius: 25px;
+}
+
+.top_part_img {
+    width: 100%;
+}
