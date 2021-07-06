@@ -113,7 +113,7 @@ a {
     margin: 0 30px;
     box-shadow: 10px 10px 35px rgb(223, 215, 215);
     border-radius: 25px;
-    padding: 0 20px;
+    padding: 20px 20px;
 }
 
 .recipy_div img {
@@ -133,7 +133,7 @@ a {
 .extra_content {
     display: flex;
     width: 1200px;
-    margin-left: 10%;
+    margin-left: 5%;
     box-shadow: 10px 10px 35px rgba(172, 167, 167, 0.604);
     border-radius: 10px;
     height: 200px
