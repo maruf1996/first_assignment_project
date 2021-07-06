@@ -1,11 +1,12 @@
 body {
     margin 0;
+    padding: 0;
     font-family: 'Bona Nova', serif;
     font-family: 'Roboto Slab', serif;
 }
 
 section {
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .top_part {
@@ -55,4 +56,74 @@ a {
 
 .top_part_img {
     width: 100%;
+}
+
+.middle_part {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 10%;
+}
+
+.middle_first {
+    width: 55%;
+    margin-left: 6%;
+}
+
+.middle_last {
+    width: 45%;
+    margin-top: 30px;
+    padding: 50px
+}
+
+.middle_last h4 {
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.583);
+}
+
+.middle_last p {
+    font-size: 18px;
+    padding-bottom: 10%;
+    padding-right: 10%;
+    color: rgba(0, 0, 0, 0.651);
+}
+
+.last_part {}
+
+.last_part h1 {
+    font-size: 40px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.583);
+}
+
+.last_part p {
+    font-size: 20px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.651);
+    padding-bottom: 25px;
+    ;
+}
+
+.last_part_div {
+    display: flex;
+}
+
+.recipy_div {
+    width: 30%;
+    margin: 0 30px;
+    box-shadow: 10px 10px 35px rgb(223, 215, 215);
+    border-radius: 25px;
+    padding: 0 20px;
+}
+
+.recipy_div img {
+    width: 100%
+}
+
+.recipy_div h4 {
+    font-size: 30px;
+}
+
+.recipy_div p {
+    font-size: 18px;
 }
